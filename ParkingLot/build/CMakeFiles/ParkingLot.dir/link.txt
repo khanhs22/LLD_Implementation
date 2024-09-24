@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/ParkingLot.dir/Car.cpp.o CMakeFiles/ParkingLot.dir/Level.cpp.o CMakeFiles/ParkingLot.dir/MotorCycle.cpp.o CMakeFiles/ParkingLot.dir/ParkingLot.cpp.o CMakeFiles/ParkingLot.dir/ParkingSpot.cpp.o CMakeFiles/ParkingLot.dir/Truck.cpp.o CMakeFiles/ParkingLot.dir/Vehicle.cpp.o CMakeFiles/ParkingLot.dir/main.cpp.o -o ParkingLot 
