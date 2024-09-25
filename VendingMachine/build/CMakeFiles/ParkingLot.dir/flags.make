@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2
+CXX_INCLUDES = -I/mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine
 
 CXX_FLAGS = -std=gnu++17
 

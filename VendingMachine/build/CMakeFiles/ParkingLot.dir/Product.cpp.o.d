@@ -1,7 +1,7 @@
 CMakeFiles/ParkingLot.dir/Product.cpp.o: \
- /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2/Product.cpp \
+ /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine/Product.cpp \
  /usr/include/stdc-predef.h \
- /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2/Product.h \
+ /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine/Product.h \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

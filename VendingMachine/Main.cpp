@@ -2,11 +2,11 @@
 
 int main() {
 
-    ProductsManager* manager = new ProductsManager();
+    ProductManager* manager = new ProductManager();
 
-    Product coca = new Product("Coca", 10);
-    Product water = new Product("Water", 5);
-    Product redBull = new Product("RedPull", 15);
+    Product coca = Product("Coca", 10);
+    Product water = Product("Water", 5);
+    Product redBull = Product("RedPull", 15);
 
     manager->addProduct(coca, 5);
     manager->addProduct(water, 10);

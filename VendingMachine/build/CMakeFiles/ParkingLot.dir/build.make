@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2
+CMAKE_SOURCE_DIR = /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2/build
+CMAKE_BINARY_DIR = /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ParkingLot.dir/depend.make
@@ -72,142 +72,142 @@ include CMakeFiles/ParkingLot.dir/flags.make
 CMakeFiles/ParkingLot.dir/Money.cpp.o: CMakeFiles/ParkingLot.dir/flags.make
 CMakeFiles/ParkingLot.dir/Money.cpp.o: ../Money.cpp
 CMakeFiles/ParkingLot.dir/Money.cpp.o: CMakeFiles/ParkingLot.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ParkingLot.dir/Money.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ParkingLot.dir/Money.cpp.o -MF CMakeFiles/ParkingLot.dir/Money.cpp.o.d -o CMakeFiles/ParkingLot.dir/Money.cpp.o -c /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2/Money.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ParkingLot.dir/Money.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ParkingLot.dir/Money.cpp.o -MF CMakeFiles/ParkingLot.dir/Money.cpp.o.d -o CMakeFiles/ParkingLot.dir/Money.cpp.o -c /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine/Money.cpp
 
 CMakeFiles/ParkingLot.dir/Money.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ParkingLot.dir/Money.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2/Money.cpp > CMakeFiles/ParkingLot.dir/Money.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine/Money.cpp > CMakeFiles/ParkingLot.dir/Money.cpp.i
 
 CMakeFiles/ParkingLot.dir/Money.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ParkingLot.dir/Money.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2/Money.cpp -o CMakeFiles/ParkingLot.dir/Money.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine/Money.cpp -o CMakeFiles/ParkingLot.dir/Money.cpp.s
 
 CMakeFiles/ParkingLot.dir/Product.cpp.o: CMakeFiles/ParkingLot.dir/flags.make
 CMakeFiles/ParkingLot.dir/Product.cpp.o: ../Product.cpp
 CMakeFiles/ParkingLot.dir/Product.cpp.o: CMakeFiles/ParkingLot.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ParkingLot.dir/Product.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ParkingLot.dir/Product.cpp.o -MF CMakeFiles/ParkingLot.dir/Product.cpp.o.d -o CMakeFiles/ParkingLot.dir/Product.cpp.o -c /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2/Product.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ParkingLot.dir/Product.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ParkingLot.dir/Product.cpp.o -MF CMakeFiles/ParkingLot.dir/Product.cpp.o.d -o CMakeFiles/ParkingLot.dir/Product.cpp.o -c /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine/Product.cpp
 
 CMakeFiles/ParkingLot.dir/Product.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ParkingLot.dir/Product.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2/Product.cpp > CMakeFiles/ParkingLot.dir/Product.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine/Product.cpp > CMakeFiles/ParkingLot.dir/Product.cpp.i
 
 CMakeFiles/ParkingLot.dir/Product.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ParkingLot.dir/Product.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2/Product.cpp -o CMakeFiles/ParkingLot.dir/Product.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine/Product.cpp -o CMakeFiles/ParkingLot.dir/Product.cpp.s
 
 CMakeFiles/ParkingLot.dir/ProductManager.cpp.o: CMakeFiles/ParkingLot.dir/flags.make
 CMakeFiles/ParkingLot.dir/ProductManager.cpp.o: ../ProductManager.cpp
 CMakeFiles/ParkingLot.dir/ProductManager.cpp.o: CMakeFiles/ParkingLot.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ParkingLot.dir/ProductManager.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ParkingLot.dir/ProductManager.cpp.o -MF CMakeFiles/ParkingLot.dir/ProductManager.cpp.o.d -o CMakeFiles/ParkingLot.dir/ProductManager.cpp.o -c /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2/ProductManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ParkingLot.dir/ProductManager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ParkingLot.dir/ProductManager.cpp.o -MF CMakeFiles/ParkingLot.dir/ProductManager.cpp.o.d -o CMakeFiles/ParkingLot.dir/ProductManager.cpp.o -c /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine/ProductManager.cpp
 
 CMakeFiles/ParkingLot.dir/ProductManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ParkingLot.dir/ProductManager.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2/ProductManager.cpp > CMakeFiles/ParkingLot.dir/ProductManager.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine/ProductManager.cpp > CMakeFiles/ParkingLot.dir/ProductManager.cpp.i
 
 CMakeFiles/ParkingLot.dir/ProductManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ParkingLot.dir/ProductManager.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2/ProductManager.cpp -o CMakeFiles/ParkingLot.dir/ProductManager.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine/ProductManager.cpp -o CMakeFiles/ParkingLot.dir/ProductManager.cpp.s
 
 CMakeFiles/ParkingLot.dir/State.cpp.o: CMakeFiles/ParkingLot.dir/flags.make
 CMakeFiles/ParkingLot.dir/State.cpp.o: ../State.cpp
 CMakeFiles/ParkingLot.dir/State.cpp.o: CMakeFiles/ParkingLot.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ParkingLot.dir/State.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ParkingLot.dir/State.cpp.o -MF CMakeFiles/ParkingLot.dir/State.cpp.o.d -o CMakeFiles/ParkingLot.dir/State.cpp.o -c /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2/State.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ParkingLot.dir/State.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ParkingLot.dir/State.cpp.o -MF CMakeFiles/ParkingLot.dir/State.cpp.o.d -o CMakeFiles/ParkingLot.dir/State.cpp.o -c /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine/State.cpp
 
 CMakeFiles/ParkingLot.dir/State.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ParkingLot.dir/State.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2/State.cpp > CMakeFiles/ParkingLot.dir/State.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine/State.cpp > CMakeFiles/ParkingLot.dir/State.cpp.i
 
 CMakeFiles/ParkingLot.dir/State.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ParkingLot.dir/State.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2/State.cpp -o CMakeFiles/ParkingLot.dir/State.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine/State.cpp -o CMakeFiles/ParkingLot.dir/State.cpp.s
 
 CMakeFiles/ParkingLot.dir/DispenseState.cpp.o: CMakeFiles/ParkingLot.dir/flags.make
 CMakeFiles/ParkingLot.dir/DispenseState.cpp.o: ../DispenseState.cpp
 CMakeFiles/ParkingLot.dir/DispenseState.cpp.o: CMakeFiles/ParkingLot.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ParkingLot.dir/DispenseState.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ParkingLot.dir/DispenseState.cpp.o -MF CMakeFiles/ParkingLot.dir/DispenseState.cpp.o.d -o CMakeFiles/ParkingLot.dir/DispenseState.cpp.o -c /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2/DispenseState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ParkingLot.dir/DispenseState.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ParkingLot.dir/DispenseState.cpp.o -MF CMakeFiles/ParkingLot.dir/DispenseState.cpp.o.d -o CMakeFiles/ParkingLot.dir/DispenseState.cpp.o -c /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine/DispenseState.cpp
 
 CMakeFiles/ParkingLot.dir/DispenseState.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ParkingLot.dir/DispenseState.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2/DispenseState.cpp > CMakeFiles/ParkingLot.dir/DispenseState.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine/DispenseState.cpp > CMakeFiles/ParkingLot.dir/DispenseState.cpp.i
 
 CMakeFiles/ParkingLot.dir/DispenseState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ParkingLot.dir/DispenseState.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2/DispenseState.cpp -o CMakeFiles/ParkingLot.dir/DispenseState.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine/DispenseState.cpp -o CMakeFiles/ParkingLot.dir/DispenseState.cpp.s
 
 CMakeFiles/ParkingLot.dir/IdleState.cpp.o: CMakeFiles/ParkingLot.dir/flags.make
 CMakeFiles/ParkingLot.dir/IdleState.cpp.o: ../IdleState.cpp
 CMakeFiles/ParkingLot.dir/IdleState.cpp.o: CMakeFiles/ParkingLot.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ParkingLot.dir/IdleState.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ParkingLot.dir/IdleState.cpp.o -MF CMakeFiles/ParkingLot.dir/IdleState.cpp.o.d -o CMakeFiles/ParkingLot.dir/IdleState.cpp.o -c /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2/IdleState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ParkingLot.dir/IdleState.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ParkingLot.dir/IdleState.cpp.o -MF CMakeFiles/ParkingLot.dir/IdleState.cpp.o.d -o CMakeFiles/ParkingLot.dir/IdleState.cpp.o -c /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine/IdleState.cpp
 
 CMakeFiles/ParkingLot.dir/IdleState.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ParkingLot.dir/IdleState.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2/IdleState.cpp > CMakeFiles/ParkingLot.dir/IdleState.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine/IdleState.cpp > CMakeFiles/ParkingLot.dir/IdleState.cpp.i
 
 CMakeFiles/ParkingLot.dir/IdleState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ParkingLot.dir/IdleState.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2/IdleState.cpp -o CMakeFiles/ParkingLot.dir/IdleState.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine/IdleState.cpp -o CMakeFiles/ParkingLot.dir/IdleState.cpp.s
 
 CMakeFiles/ParkingLot.dir/ReadyState.cpp.o: CMakeFiles/ParkingLot.dir/flags.make
 CMakeFiles/ParkingLot.dir/ReadyState.cpp.o: ../ReadyState.cpp
 CMakeFiles/ParkingLot.dir/ReadyState.cpp.o: CMakeFiles/ParkingLot.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ParkingLot.dir/ReadyState.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ParkingLot.dir/ReadyState.cpp.o -MF CMakeFiles/ParkingLot.dir/ReadyState.cpp.o.d -o CMakeFiles/ParkingLot.dir/ReadyState.cpp.o -c /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2/ReadyState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ParkingLot.dir/ReadyState.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ParkingLot.dir/ReadyState.cpp.o -MF CMakeFiles/ParkingLot.dir/ReadyState.cpp.o.d -o CMakeFiles/ParkingLot.dir/ReadyState.cpp.o -c /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine/ReadyState.cpp
 
 CMakeFiles/ParkingLot.dir/ReadyState.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ParkingLot.dir/ReadyState.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2/ReadyState.cpp > CMakeFiles/ParkingLot.dir/ReadyState.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine/ReadyState.cpp > CMakeFiles/ParkingLot.dir/ReadyState.cpp.i
 
 CMakeFiles/ParkingLot.dir/ReadyState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ParkingLot.dir/ReadyState.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2/ReadyState.cpp -o CMakeFiles/ParkingLot.dir/ReadyState.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine/ReadyState.cpp -o CMakeFiles/ParkingLot.dir/ReadyState.cpp.s
 
 CMakeFiles/ParkingLot.dir/ReturnChangeState.cpp.o: CMakeFiles/ParkingLot.dir/flags.make
 CMakeFiles/ParkingLot.dir/ReturnChangeState.cpp.o: ../ReturnChangeState.cpp
 CMakeFiles/ParkingLot.dir/ReturnChangeState.cpp.o: CMakeFiles/ParkingLot.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ParkingLot.dir/ReturnChangeState.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ParkingLot.dir/ReturnChangeState.cpp.o -MF CMakeFiles/ParkingLot.dir/ReturnChangeState.cpp.o.d -o CMakeFiles/ParkingLot.dir/ReturnChangeState.cpp.o -c /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2/ReturnChangeState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ParkingLot.dir/ReturnChangeState.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ParkingLot.dir/ReturnChangeState.cpp.o -MF CMakeFiles/ParkingLot.dir/ReturnChangeState.cpp.o.d -o CMakeFiles/ParkingLot.dir/ReturnChangeState.cpp.o -c /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine/ReturnChangeState.cpp
 
 CMakeFiles/ParkingLot.dir/ReturnChangeState.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ParkingLot.dir/ReturnChangeState.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2/ReturnChangeState.cpp > CMakeFiles/ParkingLot.dir/ReturnChangeState.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine/ReturnChangeState.cpp > CMakeFiles/ParkingLot.dir/ReturnChangeState.cpp.i
 
 CMakeFiles/ParkingLot.dir/ReturnChangeState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ParkingLot.dir/ReturnChangeState.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2/ReturnChangeState.cpp -o CMakeFiles/ParkingLot.dir/ReturnChangeState.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine/ReturnChangeState.cpp -o CMakeFiles/ParkingLot.dir/ReturnChangeState.cpp.s
 
 CMakeFiles/ParkingLot.dir/VendingMachine.cpp.o: CMakeFiles/ParkingLot.dir/flags.make
 CMakeFiles/ParkingLot.dir/VendingMachine.cpp.o: ../VendingMachine.cpp
 CMakeFiles/ParkingLot.dir/VendingMachine.cpp.o: CMakeFiles/ParkingLot.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ParkingLot.dir/VendingMachine.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ParkingLot.dir/VendingMachine.cpp.o -MF CMakeFiles/ParkingLot.dir/VendingMachine.cpp.o.d -o CMakeFiles/ParkingLot.dir/VendingMachine.cpp.o -c /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2/VendingMachine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ParkingLot.dir/VendingMachine.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ParkingLot.dir/VendingMachine.cpp.o -MF CMakeFiles/ParkingLot.dir/VendingMachine.cpp.o.d -o CMakeFiles/ParkingLot.dir/VendingMachine.cpp.o -c /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine/VendingMachine.cpp
 
 CMakeFiles/ParkingLot.dir/VendingMachine.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ParkingLot.dir/VendingMachine.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2/VendingMachine.cpp > CMakeFiles/ParkingLot.dir/VendingMachine.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine/VendingMachine.cpp > CMakeFiles/ParkingLot.dir/VendingMachine.cpp.i
 
 CMakeFiles/ParkingLot.dir/VendingMachine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ParkingLot.dir/VendingMachine.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2/VendingMachine.cpp -o CMakeFiles/ParkingLot.dir/VendingMachine.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine/VendingMachine.cpp -o CMakeFiles/ParkingLot.dir/VendingMachine.cpp.s
 
 CMakeFiles/ParkingLot.dir/Main.cpp.o: CMakeFiles/ParkingLot.dir/flags.make
 CMakeFiles/ParkingLot.dir/Main.cpp.o: ../Main.cpp
 CMakeFiles/ParkingLot.dir/Main.cpp.o: CMakeFiles/ParkingLot.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ParkingLot.dir/Main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ParkingLot.dir/Main.cpp.o -MF CMakeFiles/ParkingLot.dir/Main.cpp.o.d -o CMakeFiles/ParkingLot.dir/Main.cpp.o -c /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2/Main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ParkingLot.dir/Main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ParkingLot.dir/Main.cpp.o -MF CMakeFiles/ParkingLot.dir/Main.cpp.o.d -o CMakeFiles/ParkingLot.dir/Main.cpp.o -c /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine/Main.cpp
 
 CMakeFiles/ParkingLot.dir/Main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ParkingLot.dir/Main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2/Main.cpp > CMakeFiles/ParkingLot.dir/Main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine/Main.cpp > CMakeFiles/ParkingLot.dir/Main.cpp.i
 
 CMakeFiles/ParkingLot.dir/Main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ParkingLot.dir/Main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2/Main.cpp -o CMakeFiles/ParkingLot.dir/Main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine/Main.cpp -o CMakeFiles/ParkingLot.dir/Main.cpp.s
 
 # Object files for target ParkingLot
 ParkingLot_OBJECTS = \
@@ -237,7 +237,7 @@ ParkingLot: CMakeFiles/ParkingLot.dir/VendingMachine.cpp.o
 ParkingLot: CMakeFiles/ParkingLot.dir/Main.cpp.o
 ParkingLot: CMakeFiles/ParkingLot.dir/build.make
 ParkingLot: CMakeFiles/ParkingLot.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable ParkingLot"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable ParkingLot"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ParkingLot.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -249,6 +249,6 @@ CMakeFiles/ParkingLot.dir/clean:
 .PHONY : CMakeFiles/ParkingLot.dir/clean
 
 CMakeFiles/ParkingLot.dir/depend:
-	cd /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2 /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2 /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2/build /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2/build /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2/build/CMakeFiles/ParkingLot.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine/build /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine/build /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine/build/CMakeFiles/ParkingLot.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ParkingLot.dir/depend
 

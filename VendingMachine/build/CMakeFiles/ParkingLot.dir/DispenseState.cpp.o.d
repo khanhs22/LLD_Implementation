@@ -1,9 +1,9 @@
 CMakeFiles/ParkingLot.dir/DispenseState.cpp.o: \
- /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2/DispenseState.cpp \
+ /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine/DispenseState.cpp \
  /usr/include/stdc-predef.h \
- /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2/DispenseState.h \
- /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2/State.h \
- /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2/Product.h \
+ /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine/DispenseState.h \
+ /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine/State.h \
+ /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine/Product.h \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -132,9 +132,9 @@ CMakeFiles/ParkingLot.dir/DispenseState.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc \
- /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2/Money.h \
- /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2/VendingMachine.h \
- /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2/ProductManager.h \
+ /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine/Money.h \
+ /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine/VendingMachine.h \
+ /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine/ProductManager.h \
  /usr/include/c++/11/iostream /usr/include/c++/11/ostream \
  /usr/include/c++/11/ios /usr/include/c++/11/exception \
  /usr/include/c++/11/bits/exception_ptr.h \
@@ -166,6 +166,6 @@ CMakeFiles/ParkingLot.dir/DispenseState.cpp.o: \
  /usr/include/c++/11/bits/invoke.h \
  /usr/include/c++/11/bits/stl_multimap.h \
  /usr/include/c++/11/bits/erase_if.h \
- /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2/ReadyState.h \
- /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2/IdleState.h \
- /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine2/ReturnChangeState.h
+ /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine/ReadyState.h \
+ /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine/IdleState.h \
+ /mnt/d/Projects/LowLevelCodeDesign/MyImplementation/VendingMachine/ReturnChangeState.h
