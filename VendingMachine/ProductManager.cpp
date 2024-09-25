@@ -1,10 +1,10 @@
-#include "ProductsManager.h"
+#include "ProductManager.h"
 
-ProductsManager::ProductsManager()
+ProductManager::ProductManager()
 {
 }
 
-void ProductsManager::addProduct(Product product, int quantities)
+void ProductManager::addProduct(Product product, int quantities)
 {
     if(m_products.count(product) > 0) {
         m_products[product] = m_products[product] + quantities;
@@ -13,7 +13,7 @@ void ProductsManager::addProduct(Product product, int quantities)
     }
 }
 
-bool ProductsManager::checkProductAvailable(Product product) const
+bool ProductManager::checkProductAvailable(Product product) const
 {
     if(m_products.count(product) > 0 && m_products[product] > 0) {
         return true;
@@ -21,12 +21,12 @@ bool ProductsManager::checkProductAvailable(Product product) const
     return false;
 }
 
-void ProductsManager::dispenseProduct(Product product)
+void ProductManager::dispenseProduct(Product product)
 {
     m_products[product] = m_products[product] - 1;
 }
 
-void ProductsManager::displayProducts()
+void ProductManager::displayProducts()
 {
     for(auto m : m_products) {
         std::cout << m.first.getName() << " has " << m.second << '\n';

@@ -5,7 +5,7 @@ Product::Product(const std::string &name, int price)
 {
 }
 
-const std::string& Product::getName() const
+std::string Product::getName() const
 {
     return m_name;
 }

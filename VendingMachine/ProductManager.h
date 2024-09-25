@@ -1,16 +1,16 @@
 #ifndef ProductManager_h
 #define ProductManager_h
 
-#include "Enum.h"
 #include "Product.h"
-#include <unordered_map>
+#include <iostream>
+#include <map>
 
-class ProductsManager
+class ProductManager
 {
 private:
-    std::unordered_map<Product, int> m_products;
+    std::map<Product, int> m_products;
 public:
-    ProductsManager();
+    ProductManager();
     void addProduct(Product product, int quantities);
     bool checkProductAvailable(Product product) const;
     void dispenseProduct(Product product);

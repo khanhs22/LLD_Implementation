@@ -3,10 +3,13 @@
 
 #include "State.h"
 
-class IdleState : virtual public State
+class IdleState : public State
 {
 public:
-    void chooseProduct(Product product) override;
+    void chooseProduct(Product product);
+    void putMoney(Money value) {};
+    void dispenseProduct() {};
+    void returnChange() {};
 };
 
 #endif

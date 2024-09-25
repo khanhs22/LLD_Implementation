@@ -1,6 +1,6 @@
 #include "VendingMachine.h"
 
-VendingMachine::VendingMachine(ProductsManager* manager)
+VendingMachine::VendingMachine(ProductManager* manager)
     :m_manager(manager)
 {
     m_state = new IdleState(this);

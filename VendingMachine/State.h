@@ -1,6 +1,8 @@
 #ifndef State_h
 #define State_h
 
+#include "Product.h"
+#include "Money.h"
 #include "VendingMachine.h"
 
 class VendingMachine;
@@ -15,8 +17,6 @@ public:
     virtual void putMoney(Money value) = 0;
     virtual void dispenseProduct() = 0;
     virtual void returnChange() = 0;
-
 };
-
 
 #endif

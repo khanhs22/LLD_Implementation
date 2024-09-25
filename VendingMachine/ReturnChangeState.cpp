@@ -1,6 +1,6 @@
 #include "ReturnChangeState.h"
 
-void ReturnChangeState::returnChange() override
+void ReturnChangeState::returnChange()
 {
     if(m_vendingMachine->getCurrPayment() > m_vendingMachine->getCurrChooseProduct().getPrice()) {
         std::cout << "Return " << m_vendingMachine->getCurrPayment() - m_vendingMachine->getCurrChooseProduct().getPrice() << " nghin dong!\n";
